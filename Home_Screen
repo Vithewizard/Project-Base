@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<table style="width:100%">
+  <tr>
+    Welcome to 96 Lancaster </br>
+  </tr>
+
+  <tr>
+    <td>Home</td>
+    <td>About</td>
+    <td>Pictures</td>
+    <td>History</td>
+    <td>Contact Us</td>
+
+  </tr>
+
+  <tr>
+    <td>House Image</td>
+
+    <td>
+         <tr>
+             <td></td>
+             <td>Hello name</td>
+         </tr>
+         <tr>
+             <tr>* 1700 Sqft</tr></br>
+             <tr>* 6 bedroom</tr></br>
+             <tr>* 2 bathroom</tr></br>
+             <tr>* 3 Off street parking</tr>
+         </tr>  
+     </td>  
+  </tr>
+ 
+</table>
+
+</body>
+</html>
