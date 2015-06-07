@@ -1,8 +1,33 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+<style>
+body {
+    background-color: #b0c4de;
+}
+</style>
 
-<table style="width:100%">
+
+<body onload="myFunction()">
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var person = prompt("Please enter your name", "Harry Potter");
+    
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+    }
+}
+</script>
+
+
+</head>
+<body>
+<table style="width:100%" border="1">
+  
   <tr>
     Welcome to 96 Lancaster </br>
   </tr>
@@ -17,20 +42,25 @@
   </tr>
 
   <tr>
-    <td><img src="96lan.jpg" alt="Mountain View" style="width:304px;height:228px;"></td>
+      <table style="width:100%" border="1">
+        
+          <td>House Image</td>
 
-    <td>
-         <tr>
-             <td></td>
-             <td>Hello name</td>
-         </tr>
-         <tr>
+          <td>
+            <table style="width:100%" border="1">
+             <tr>
+               <td>          </td>
+               <td>Hello name</td>
+             </tr>
+             <tr>
              <tr>* 1700 Sqft</tr></br>
              <tr>* 6 bedroom</tr></br>
              <tr>* 2 bathroom</tr></br>
              <tr>* 3 Off street parking</tr>
-         </tr>  
-     </td>  
+              </tr>
+             </table>
+            </td>  
+</table>
   </tr>
  
 </table>
